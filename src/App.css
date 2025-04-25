@@ -1,0 +1,83 @@
+/* Same as my previous HW assignments */
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: rgb(68, 67, 66);
+  text-align: center;
+  margin: 100px;
+}
+
+h1 {
+  color: antiquewhite;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+div {
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 0 auto;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+button {
+  background-color: rgb(68, 67, 66);
+  color: antiquewhite;
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(221, 182, 130);
+  color: rgb(68, 67, 66);
+  font-weight: bold;
+}
+
+div p {
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+footer {
+  background-color: antiquewhite;
+  font-weight: bolder;
+  font-size: 19px;
+  margin-top: 30px;
+  padding: 15px;
+}
+
+
+.App {
+  text-align: center;
+}
+
+/* Wanted to keep the spinning react logo */
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

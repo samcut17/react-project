@@ -30,7 +30,7 @@ function MoodMessage(props) {
     };
     
   // Display mood
-    return <h2 style={boxStyle}>You are feeling {props.mood}!</h2>;
+    return <h2 style={boxStyle}>You are feeling {props.mood}</h2>;
   }
 
   // Example of a React Component
@@ -38,7 +38,7 @@ function MoodMessage(props) {
     const [mood, setMood] = useState(""); //React hook useState
     const [color, setColor] = useState("");
   
-    // Set moods and colors functions
+    // Set moods and colors functions, logic to make the component work.
     const setHappy = () => {
       setMood("Happy");
       setColor("green");
